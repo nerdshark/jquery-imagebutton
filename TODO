@@ -1,0 +1,9 @@
+jquery-imagebutton TODO
+
+- add error-handling throughout - VERY FRAGILE
+- code is entirely untested, so start testing
+- write small README
+- decide on code license -- for the moment, GPL
+- add VIM-isms throughout source file, readme, and TODO, allowing for
+  auto-updating edit timestamps
+- set up some release preparation tools/scripts (NO AUTOTOOLS)
