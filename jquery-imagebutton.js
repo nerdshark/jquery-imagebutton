@@ -3,15 +3,15 @@ jQuery Image Button Plugin v0.1
 Author: Dustin Mays (dustin.mays@uky.edu)
 Date: 02/16/2010
 
-This plugin is meant to address problem that I found to be absolutely baffling 
-(due to the unnecessary complexity of example code and my own lack of
-experience with HTML, CSS, and Javascript).
+This plugin automates the creation of image buttons, a problem that I found to be
+absolutely baffling (due to the unnecessary complexity of example code and my
+own lack of experience with HTML, CSS, and Javascript). 
 
-ImageButton is very simple: it allows you to create a button using two image 
-states, which are transitioned between using fading opacity. The consuming
-user passes the plugin an optional associatve array with config options, which
+ImageButton is very simple: it allows you to create a button using two static
+images, which are transitioned between using fading opacity. The user
+passes the plugin an optional associatve array with config options, which
 then wraps each image inside div tags, finds the corresponding roll-over state 
-image using the given prefix and/or suffix using regexps, sticks that image in
+image using the given prefix and/or suffix using regexps, wraps that image in
 a div inside the first div, wraps both images in <a> tags if a url is passed,
 and generates CSS and jQuery hover methods.
 
